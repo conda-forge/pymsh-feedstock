@@ -21,7 +21,6 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - sympy >=1.9
 
 test:
   imports:

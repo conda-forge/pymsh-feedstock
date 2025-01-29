@@ -1,5 +1,5 @@
 {% set name = "pymsh" %}
-{% set version = "1.1" %}
+{% set version = "1.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pymsh-{{ version }}.tar.gz
-  sha256: 1dac7b3b4a0fda7dce4c2fd5c84c7dd44bb80c9eac346c90559e275e37a41b94
+  sha256: 548cfe96697870435d1841c5cc7e2ce9137adcb1563595b9ae94e9b0d645fedc
 
 build:
   noarch: python
